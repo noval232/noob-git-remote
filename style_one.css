@@ -7,11 +7,19 @@ h2 {
   color: #a10e46;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  column-gap: 7px;
 }
 
-.git-title::first-letter {
-  font-size: 2em;
-  text-transform: capitalize;
+span.git_title {
+  transform: translateY(4px);
+}
+span.git_title::first-letter {
+  display: block;
+  font-size: 40px;
+  color: #e84e31;
 }
 
 p {
