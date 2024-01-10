@@ -1,6 +1,7 @@
 main {
   max-width: 1250px;
   margin: 10vh auto;
+  border: 1px #d8064c outset;
 }
 h2 {
   color: #a10e46;
