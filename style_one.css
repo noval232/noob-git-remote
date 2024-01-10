@@ -10,7 +10,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  column-gap: 7px;
+  column-gap: 5px;
 }
 
 span.git_title {
