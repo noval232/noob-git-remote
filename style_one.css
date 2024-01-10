@@ -1,16 +1,22 @@
 main {
   max-width: 1250px;
   margin: 10vh auto;
-  border: 1px #d8064c outset;
+  box-shadow: 0 5px 4px 2px purple, 0 5px 8px 4px #650343;
 }
 h2 {
   color: #a10e46;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.git-title::first-letter {
+  font-size: 2em;
+  text-transform: capitalize;
 }
 
 p {
   padding: 1em;
   border: none;
   background-color: #a10e4644;
-  color: #12c4ca;
+  color: #f815ff;
 }
