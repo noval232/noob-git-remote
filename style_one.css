@@ -25,6 +25,11 @@ span.git_title::first-letter {
 p {
   padding: 1em;
   border: none;
-  background-color: #61082a44;
+  background-color: #a10e4644;
   color: #f815ff;
+}
+
+.flag {
+  background-color: #650343;
+  color: aliceblue;
 }
